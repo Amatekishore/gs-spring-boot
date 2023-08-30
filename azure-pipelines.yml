@@ -1,6 +1,6 @@
 pool:
-  vmImage: 'ubuntu-16.04' # Hosted Ubuntu 1604
-  demands: maven
+  vmImage: 'ubuntu-20.04' # Hosted Ubuntu 2004
+  demands: js-springboot
 - task: Maven@4
   inputs:
     mavenPomFile: 'app/pom.xml'
